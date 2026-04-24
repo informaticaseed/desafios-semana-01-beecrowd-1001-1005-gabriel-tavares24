@@ -18,3 +18,9 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+a = float(input())
+b = float(input())
+
+media = (a * 3.5 + b * 7.5) / 11
+
+print(f"MEDIA = {media:.5f}")
