@@ -12,3 +12,18 @@ você receberá "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
+using System;
+
+class URI {
+
+    static void Main(string[] args) {
+
+        int A = int.Parse(Console.ReadLine());
+        int B = int.Parse(Console.ReadLine());
+
+        int X = A + B;
+
+        Console.WriteLine("X = " + X);
+    }
+
+}
